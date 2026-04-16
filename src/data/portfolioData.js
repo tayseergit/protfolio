@@ -32,7 +32,7 @@ export const portfolioData = {
       techStack: ["Flutter", "UDP/TCP", "Audio Streaming"],
       image: null, // Add your imported image here, similar to hero Image
       imagePlaceholder: "Walkie Talkie UI",
-      github: "#" // To be updated by user
+      github: "https://github.com/tayseergit/Walkie_Talkie" // To be updated by user
     },
     {
       id: 2,
@@ -41,7 +41,7 @@ export const portfolioData = {
       techStack: ["Flutter", "Firebase", "Cubit"],
       image: null,
       imagePlaceholder: "E-Learning Dashboard",
-      github: "#" // To be updated by user
+      github: "https://github.com/tayseergit/SCRIPTS" // To be updated by user
     },
     {
       id: 3,
@@ -50,13 +50,13 @@ export const portfolioData = {
       techStack: ["Flutter", "Cubit"],
       image: null,
       imagePlaceholder: "E-Commerce Storefront",
-      github: "#" // To be updated by user
+      github: "https://github.com/tayseergit/flutter_app_E-commerce" // To be updated by user
     }
   ],
 
   contact: {
     email: "mailto:eng.tayseermatar@gmail.com", // To be updated by user
     github: "https://github.com/tayseergit", // Placeholder
-    linkedin: "https://linkedin.com/in/tayseer_matar" // Placeholder
+    linkedin: "https://www.linkedin.com/in/tayseer-matar-7b3a83333" // Placeholder
   }
 };
