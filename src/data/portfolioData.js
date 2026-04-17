@@ -60,6 +60,8 @@ export const portfolioData = {
   contact: {
     email: "eng.tayseermatar@gmail.com", // To be updated by user
     github: "https://github.com/tayseergit", // Placeholder
-    linkedin: "https://www.linkedin.com/in/tayseer-matar-7b3a83333" // Placeholder
+    linkedin: "https://www.linkedin.com/in/tayseer-matar-7b3a83333", // Placeholder
+    whatsapp: "https://wa.me/963949529941", // Update with your WhatsApp number
+    telegram: "https://t.me/TayseerMatar" // Update with your Telegram username
   }
 };
