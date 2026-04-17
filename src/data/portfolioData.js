@@ -9,7 +9,7 @@ export const portfolioData = {
     title: "Software Engineer | Mobile Engineer",
     tagline: "Building scalable mobile apps & real-time systems with high performance",
     availability: "Available for freelance & full-time opportunities",
-    cvLink: "https://drive.google.com/file/d/1X-PVoAlmDRhkIixOEp1pshEP3TJd8puP/view",
+    cvLink: "https://drive.google.com/file/d/12q2dkdemmYtK-ZWZ2-kzM6BD4OIkNhZd/view?usp=drive_link",
     image: heroImage
   },
   
