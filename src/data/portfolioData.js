@@ -1,4 +1,7 @@
-import heroImage from '../assets/hero.png';
+import heroImage from '../assets/hero.jpg';
+import walkieImage from '../assets/Walkie.jpg';
+import elearningImage from '../assets/elearning.jpg';
+import ecommerceImage from '../assets/ecommerce.jpg';
 
 export const portfolioData = {
   hero: {
@@ -6,7 +9,7 @@ export const portfolioData = {
     title: "Software Engineer | Mobile Engineer",
     tagline: "Building scalable mobile apps & real-time systems with high performance",
     availability: "Available for freelance & full-time opportunities",
-    cvLink: "https://drive.google.com/drive/folders/1W22cMiG4GF1gUs5pcD-2yNKpCxczPRjh",
+    cvLink: "https://drive.google.com/file/d/1X-PVoAlmDRhkIixOEp1pshEP3TJd8puP/view",
     image: heroImage
   },
   
@@ -30,7 +33,7 @@ export const portfolioData = {
       title: "Walkie Talkie App",
       description: "Real-time voice communication across Local Area Networks. Supports one-to-one, one-to-many, and broadcast functionalities with low latency audio streaming.",
       techStack: ["Flutter", "UDP/TCP", "Audio Streaming"],
-      image: null, // Add your imported image here, similar to hero Image
+      image: walkieImage,
       imagePlaceholder: "Walkie Talkie UI",
       github: "https://github.com/tayseergit/Walkie_Talkie" // To be updated by user
     },
@@ -39,7 +42,7 @@ export const portfolioData = {
       title: "E-Learning System",
       description: "A comprehensive role-based learning platform with real-time Firebase integration, featuring a responsive UI tailored for various user roles.",
       techStack: ["Flutter", "Firebase", "Cubit"],
-      image: null,
+      image: elearningImage,
       imagePlaceholder: "E-Learning Dashboard",
       github: "https://github.com/tayseergit/SCRIPTS" // To be updated by user
     },
@@ -48,14 +51,14 @@ export const portfolioData = {
       title: "E-Commerce App",
       description: "Scalable e-commerce application featuring product listing, advanced cart systems, and secure authentication flows.",
       techStack: ["Flutter", "Cubit"],
-      image: null,
+      image: ecommerceImage,
       imagePlaceholder: "E-Commerce Storefront",
       github: "https://github.com/tayseergit/flutter_app_E-commerce" // To be updated by user
     }
   ],
 
   contact: {
-    email: "mailto:eng.tayseermatar@gmail.com", // To be updated by user
+    email: "eng.tayseermatar@gmail.com", // To be updated by user
     github: "https://github.com/tayseergit", // Placeholder
     linkedin: "https://www.linkedin.com/in/tayseer-matar-7b3a83333" // Placeholder
   }

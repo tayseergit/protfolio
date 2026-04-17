@@ -6,6 +6,7 @@ import './Hero.css';
 
 export const Hero = () => {
   const { name, title, tagline, availability, image, cvLink } = portfolioData.hero;
+  const { email } = portfolioData.contact;
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -49,7 +50,7 @@ export const Hero = () => {
           </motion.p>
           
           <motion.div variants={itemVariants} className="hero-cta-group">
-            <Button href="#contact" as="a">Contact Me</Button>
+            <Button href={`https://mail.google.com/mail/?view=cm&fs=1&to=${email}`} as="a">Contact Me</Button>
             <Button href={cvLink} as="a" variant="outline">Download CV</Button>
           </motion.div>
         </motion.div>

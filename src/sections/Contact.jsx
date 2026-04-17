@@ -39,7 +39,9 @@ export const Contact = () => {
           >
             <motion.a 
               variants={itemVariants}
-              href={portfolioData.contact.email}
+              href={`https://mail.google.com/mail/?view=cm&fs=1&to=${portfolioData.contact.email}`}
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn btn-primary"
               style={{ padding: '1rem 2rem', display: 'inline-flex', alignItems: 'center', gap: '0.75rem', borderRadius: 'var(--radius)', textDecoration: 'none', fontWeight: '500' }}
             >

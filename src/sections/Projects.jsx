@@ -8,7 +8,7 @@ export const Projects = () => {
   return (
     <section id="projects" className="section" style={{ backgroundColor: 'var(--bg-alt)' }}>
       <div className="container">
-        <SectionHeader title="Featured Projects" subtitle="A selection of my best work focusing on real-time systems, scalable architecture, and rich mobile experiences." />
+        <SectionHeader title="Featured Projects ( Flutter )" subtitle="A selection of my best work focusing on real-time systems, scalable architecture, and rich mobile experiences." />
         
         <div className="projects-grid">
           {portfolioData.projects.map((project, index) => {
