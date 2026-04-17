@@ -4,7 +4,10 @@ import './Button.css';
 
 export const Button = ({ children, variant = 'primary', onClick, as = 'button', href, className = '' }) => {
   const Component = as === 'a' ? motion.a : motion.button;
-  const props = as === 'a' ? { href, target: "_blank", rel: "noopener noreferrer" } : { onClick };
+  const isInternalLink = href && href.startsWith('#');
+  const props = as === 'a' 
+    ? { href, target: isInternalLink ? undefined : "_blank", rel: isInternalLink ? undefined : "noopener noreferrer" } 
+    : { onClick };
 
   return (
     <Component
